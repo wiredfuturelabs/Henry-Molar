@@ -1,0 +1,43 @@
+<p>[{
+	"version":"current",
+	"windows":[{"0.0.2":["alpha"]}],
+	"mac":[{"0.0.2":["alpha"]}],
+	"android":[{"0.0.1":["alpha"]}],
+	"linux":[{"0.0.0":["alpha"]}],
+	"web":[{"0.0.0":["alpha"]}],
+	"ios":[{"0.0.0":["alpha"]}]
+},
+{
+	"version":"previous",
+	"windows":[{"0.0.1":["alpha"]},
+				{"0.0.2":["alpha"]}],
+	"mac":[{"0.0.1":["alpha"]},
+			{"0.0.2":["alpha"]}],
+	"android":[{"0.0.1":["alpha"]}],
+	"linux":[{"0.0.0":["alpha"]}],
+	"web":[{"0.0.0":["alpha"]}],
+	"ios":[{"0.0.0":["alpha"]}]
+},
+{
+	"version":"upcoming",
+	"linux":[{"0.0.1":["alpha"]}],
+	"mac":[{"1.0.0":["stable"]}]
+},
+{
+	"verion":"alpha",
+	"window":"0.0.2",
+	"mac":"0.0.2",
+	"android":"0.0.1",
+	"linux":"0.0.0",
+	"web":"0.0.0",
+	"ios":"0.0.0"
+},
+{
+	"version":"stable",
+	"window":"0.0.0",
+	"mac":"0.0.0",
+	"android":"0.0.0",
+	"linux":"0.0.0",
+	"web":"0.0.0",
+	"ios":"0.0.0"
+}]</p>
