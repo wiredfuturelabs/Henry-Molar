@@ -18,5 +18,7 @@
      <p>© 2021 Wired Future Labs</p>
 </div>
 
+<p> Version 0.0.3 coming soon... //-03-2021</p>
+
 </body>
 </html>
