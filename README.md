@@ -3,7 +3,7 @@
 
 <div class="header">
   <h1><img src="https://github.com/wiredfuturelabs/Henry-Molar/blob/main/logo.png?raw=true" alt="Logo" width="30" height="30"> Henry Molar</h1>
-  <h3>v0.0.2 alpha</h3>
+  <h3>v0.0.2 Testing versions</h3>
   <p>A periodic table which does it all</p>
 </div>
 
@@ -18,7 +18,7 @@
      <p>© 2021 Wired Future Labs</p>
 </div>
 
-<p> Version 0.0.3 coming soon... //-03-2021</p>
+<p> Version 0.0.3 coming soon for windows...</p>
 
 </body>
 </html>
