@@ -11,8 +11,9 @@
   <h1>Download Links</h1>
 <p>
 <a href="https://github.com/wiredfuturelabs/Henry-Molar/blob/main/distribution/Henry-Molar.apk?raw=true" ><img src="https://github.com/wiredfuturelabs/Henry-Molar/blob/main/downloads/android.jpeg?raw=true" alt="Android" width="100"></a> 
-<a href="https://github.com/wiredfuturelabs/Henry-Molar/releases/download/0.0.4/Henry.Molar.Mac.os.zip" alt="Mac" width="100"></a>  
-<a href="https://github.com/wiredfuturelabs/Henry-Molar/releases/download/0.0.4/Henry.Molar.Windows.exe" alt="Windows" width="100"></a></p>
+
+  <a href="https://github.com/wiredfuturelabs/Henry-Molar/releases/download/0.0.4/Henry.Molar.Mac.os.zip" ><img src="https://github.com/wiredfuturelabs/Henry-Molar/blob/main/downloads/mac.png?raw=true" alt="Mac" width="100"></a>  
+<a href="https://github.com/wiredfuturelabs/Henry-Molar/releases/download/0.0.4/Henry.Molar.Windows.exe" ><img src="https://github.com/wiredfuturelabs/Henry-Molar/blob/main/downloads/windows.png?raw=true" alt="Windows" width="100"></a></p>
 </div>
                <div class="footer">
      <p>© 2021 Wired Future Labs</p>
