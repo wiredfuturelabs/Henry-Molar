@@ -5,57 +5,215 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-/* Style the body */
-body {
-  background: #dbfffd;
-  font-family: Arial;
+.ul1 {
+  list-style-type: none;
   margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: antiquewhite;
 }
 
+.li1 {
+  float: left;
+  align-content: center;
+
+}
+
+.li1 a {
+  display: block;
+  color: rgb(255, 82, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.active {
+  background-color: lightgrey;
+}
+/* Style the body */
+body {
+  background: beige;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Float four columns side by side */
+.column1 {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row1 {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column1 {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.3s;
+  background-color: antiquewhite;
+}
+
+.card1:hover {
+  box-shadow: 0 16px 16px 0 rgba(0,0,0,0.2);
+}
 /* Header/Logo Title */
 .header {
   padding: 60px;
   text-align: center;
-  color: black;
+  color: rgb(255, 82, 0);
+  background-color: antiquewhite;
   font-size: 30px;
 }
 
-/* Page Content */
-.content {padding:20px;}
-
 /* Footer */
 .footer {
-
   font-family: Cinzel;
   text-align: center;
   color: black;
   font-size: 30px;
 }
 
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 25%;
+}
+
+@media(max-width:500px) {
+  .column{
+    width: 100%;
+  }
+}
+
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container {
+  padding: 2px 16px;
+}
+
 </style>
 </head>
 <body>
+<ul class="ul1">
+  <li class="li1"><a href="https://wiredfuturelabs.github.io/Henry-Molar/">Home</a></li>
+  <li class="li1"><a class="active">Download</a></li>
+</ul>
 
 <div class="header">
   <h1><img src="https://github.com/wiredfuturelabs/Henry-Molar/blob/main/logo.png?raw=true" alt="Logo" width="50" height="50"> Henry Molar</h1>
   <p>A periodic table which does it all</p>
 </div>
 
-<div class="content">
-  
-  <h1>Download BETA</h1>
-  <h3>Mac version - 0.0.3, Android version- 0.0.1,windows version - 0.0.2</h3>
-  
-  <p>
-  <a href="https://drive.google.com/file/d/1CJOx7KOGQIZFz9iMrqaM1xiL1mprc_9M/view?usp=sharing" ><img src="https://github.com/wiredfuturelabs/Henry-Molar/blob/main/downloads/android.jpeg?raw=true" alt="Android" width="100"></a> 
-  <a href="https://www.amazon.in/gp/product/B08RWG48NS/ref=mas_pm_henry_molar"><img src="https://images-na.ssl-images-amazon.com/images/G/01/mobile-apps/devportal2/res/images/amazon-appstore-badge-english-black.png" alt="Amazon" width="112"></a>
-  <a href="https://drive.google.com/file/d/1TCiWEFWToCg7Yy5nHkMXB8L7Mn_tBz2s/view?usp=sharing" ><img src="https://github.com/wiredfuturelabs/Henry-Molar/blob/main/downloads/mac.png?raw=true" alt="Mac" width="100"></a>  
-  <a href="http://bit.ly/2Lm5eHB" ><img src="https://github.com/wiredfuturelabs/Henry-Molar/blob/main/downloads/windows.png?raw=true" alt="Windows" width="100"></a></p>
-  
+<h1 style="text-align: center; color: darkgoldenrod;">Download</h1>
+
+<div class="row">
+  <div class="column">
+    <a href="https://drive.google.com/file/d/1CJOx7KOGQIZFz9iMrqaM1xiL1mprc_9M/view?usp=sharing" ><img src="https://github.com/wiredfuturelabs/Henry-Molar/blob/main/downloads/android.jpeg?raw=true" alt="Android" width="100"></a>
+  </div>
+  <div class="column">
+    <a href="https://www.amazon.in/gp/product/B08RWG48NS/ref=mas_pm_henry_molar"><img src="https://images-na.ssl-images-amazon.com/images/G/01/mobile-apps/devportal2/res/images/amazon-appstore-badge-english-black.png" alt="Amazon" width="100"></a>
+  </div>
+  <div class="column">
+    <a href="https://github.com/wiredfuturelabs/Henry-Molar/releases/download/0.0.4/Henry.Molar.Mac.os.zip"><img src="https://github.com/wiredfuturelabs/Henry-Molar/blob/main/downloads/mac.png?raw=true" alt="Mac" width="100"></a>
+  </div>
+  <div class="column">
+    <a href="https://github.com/wiredfuturelabs/Henry-Molar/releases/download/0.0.4/Henry.Molar.Windows.exe"><img src="https://github.com/wiredfuturelabs/Henry-Molar/blob/main/downloads/windows.png?raw=true" alt="Windows" width="100"></a>
+  </div>
+</div>
+
+<br>
+<p>
+  <h3>Release Notes:</h3>
+  <br>
+  <div class="row1">
+
+    <div class="column1">
+      <div class="card1">
+        <b>0.0.4</b>
+        <h4>Mac os and Windows: </h4>
+          <ul>
+            <li>Redesigned advance menu</li>
+            <li>Overall app is now more responsive</li>
+            <li>Bug Fixes</li>
+            <li>Redesigned calculator</li>
+            </ul>
+      </div>
+    </div>
+
+    <div class="column1">
+      <div class="card1">
+        <b>0.0.3</b>
+        <h4>Mac os: </h4>
+          <ul>
+            <li>Redesigned GUI</li>
+            </ul>
+        <h4>Windows: </h4>
+          <ul>
+            <li>Cancelled</li>
+            </ul>
+      </div>
+    </div>
+
+    <div class="column1">
+      <div class="card1">
+        <b>0.0.2</b>
+        <h4>Mac os and Windows: </h4>
+          <ul>
+            <li>Solo file app</li>
+            <li>Images of elements do not take space</li>
+            <li>New symbols</li>
+            <li>Fixed Bugs which caused builder panel to crash</li>
+          </ul>
+      </div>
+    </div>
+
+    
+    <div class="column1">
+      <div class="card1">
+        <b>0.0.1</b>
+        <h4>Android, Mac os and Windows: </h4>
+        Released first version of app (January 1st 2021)
+      </div>
+    </div>
 
   </div>
-               <div class="footer">
-     <p>© 2021 Wired Future Labs</p>
+
+  <h3>Download source code:</h3>
+  <a href="https://github.com/wiredfuturelabs/Henry-Molar-SourceCode">Source Code Henry Molar</a>
+
+</p>
+
+<br>
+<div class="footer">
+     <p style="color: darkgoldenrod;">© 2021 Wired Future Labs</p>
 </div>
 
 </body>
