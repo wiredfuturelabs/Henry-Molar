@@ -14,6 +14,8 @@
 
   <a href="https://github.com/wiredfuturelabs/Henry-Molar/releases/download/0.0.4/Henry.Molar.Mac.os.zip" ><img src="https://github.com/wiredfuturelabs/Henry-Molar/blob/main/downloads/mac.png?raw=true" alt="Mac" width="100"></a>  
 <a href="https://github.com/wiredfuturelabs/Henry-Molar/releases/download/0.0.4/Henry.Molar.Windows.exe" ><img src="https://github.com/wiredfuturelabs/Henry-Molar/blob/main/downloads/windows.png?raw=true" alt="Windows" width="100"></a></p>
+  
+  Direct download for linux has not been created yet but you can run it by installing python and running the setup.py and app.py in the python interpreter.
 </div>
                <div class="footer">
      <p>© 2021 Wired Future Labs</p>
